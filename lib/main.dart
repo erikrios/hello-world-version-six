@@ -9,12 +9,12 @@ class HelloApp extends StatelessWidget {
     return MaterialApp(
       title: 'Hello',
       theme: ThemeData(primarySwatch: Colors.deepOrange),
-      home: HomeApp(),
+      home: HomePage(),
     );
   }
 }
 
-class HomeApp extends StatelessWidget {
+class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Scaffold(
         appBar: AppBar(
